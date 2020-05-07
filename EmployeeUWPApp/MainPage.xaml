@@ -40,9 +40,9 @@
                                         Text="{x:Bind Id}"
                                         Width="50" />
                             <TextBlock
-                                        Text="{x:Bind FirstName, Mode=TwoWay}"
+                                        Text="{x:Bind FirstName, Mode=OneWay}"
                                         Width="300" />
-                            <TextBlock Text="{x:Bind LastName, Mode=TwoWay}"
+                            <TextBlock Text="{x:Bind LastName}"
                                        Width="200" />
                             <TextBlock Text="{x:Bind AnnualSalary}"
                                        Width="150" />
