@@ -8,9 +8,11 @@ namespace EmployeeComponent
     {
         public ObservableCollection<EmployeeViewModel> GetEmployees()
         {
-
+            //ObservableCollection<EmployeeViewModel> 用于存储一组员工信息，
+            //每个员工信息都是一个 EmployeeViewModel 对象，包含了员工的各种属性，如 ID、姓名、性别、年薪等。
+            //问题1 这里的泛型好处是什么
             var employees = new ObservableCollection<EmployeeViewModel>();
-
+      
             employees.Add(new EmployeeViewModel
             {
                 Id = 1,
