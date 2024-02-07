@@ -44,6 +44,9 @@ namespace EmployeeComponent
              //上述声明的事件名为 propertychanged  ？是用来查看是否为null如果不为null invoke执行后面的方法
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));    
             // 这里的new PropertyChangedEventArgs(propertyName)   这里的是创建的了一个新的实例
+            //PropertyChangedEventArgs 类包含了两个重要的属性：
+             //PropertyName：用于存储发生变化的属性的名称。
+              //EventArgs：用于存储其它相关的事件参数。
         }
 
     }
